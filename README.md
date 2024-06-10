@@ -10,6 +10,16 @@ cd thingsboard
 mvn clean install -DskipTests
 ```
 
+## Installing Java with SDKMAN
+```sh
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
+## Installing Java
+```sh
+sdk install java 11.0.23-tem
+```
+
 ## Setting Up PostgreSQL with Docker Compose
 
 ```sh
